@@ -1,0 +1,46 @@
+.img-inicio {
+    margin-left: -46%
+}
+
+.hero {
+    background-size: cover;
+}
+
+
+.card {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('/static/img/login/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img-overlay {
+    position: relative;
+    padding: 20px;
+}
+
+@keyframes item-anim {
+  from {transform: scale(.5);}
+  to {transform: scale(1);}
+}
+
+.item-intranet .item-text:hover{
+    animation-name: item-anim;
+    animation-duration: .3s;
+}
+
+.item-intranet:hover{
+    transform: scale(1.2);
+}
+
+.item-intranet{
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
